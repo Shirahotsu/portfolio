@@ -33,37 +33,37 @@ export class ProjectsComponent implements OnInit {
   images = [
     {
       name:'Agromat',
-      img:'../../../assets/agromat.jpg',
+      img:'https://shirahotsu.github.io/portfolio/assets/agromat.jpg',
       link:'https://www.agromat.com.pl/',
       text:'JavaScript, jQuery, PHP, MaterializeCSS, Gulp'
     },
     {
       name:'Serwis',
-      img:'../../../assets/serwis.jpg',
+      img:'https://shirahotsu.github.io/portfolio/assets/serwis.jpg',
       link:'http://www.wtryskiwacz.net/',
       text:'JavaScript, jQuery, PHP, Bootstrap, Gulp'
     },
     {
       name:'Alfamilk',
-      img:'../../../assets/alfamilk.jpg',
+      img:'https://shirahotsu.github.io/portfolio/assets/alfamilk.jpg',
       link:'http://alfamilk.com/',
       text:'JavaScript, jQuery, PHP, Bootstrap, Gulp'
     },
     {
       name:'SomethingLikeOlx',
-      img:'../../../assets/somethingLikeOlx.jpg',
+      img:'https://shirahotsu.github.io/portfolio/assets/somethingLikeOlx.jpg',
       link:'https://github.com/Shirahotsu/somethingLikeOLX',
       text:'Angular 7, JavaScript, TypeScript, RxJS, WebPack, Material Design for Bootstrap'
     },
     {
       name:'AceLan',
-      img:'../../../assets/acelan.jpg',
+      img:'https://shirahotsu.github.io/portfolio/assets/acelan.jpg',
       link:'http://acelan.acedu.pl/',
       text:'JavaScript, jQuery, PHP, MaterializeCSS'
     },
     {
       name:'GitHub',
-      img:'../../../assets/github.jpg',
+      img:'https://shirahotsu.github.io/portfolio/assets/github.jpg',
       link:'https://github.com/Shirahotsu',
       text:'Inne mniejsze projekty'
     }
