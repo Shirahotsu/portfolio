@@ -1,0 +1,43 @@
+.whoAmIView{
+  padding: 140px 12%;
+  color: #141823;
+  background-color: #eec3cc;
+
+  display: flex;
+  justify-content: flex-start;
+}
+.textView{
+  width: 100%;
+}
+h1{
+  font-size: 1.6em;
+  text-align: center;
+  margin-top: 0px;
+  color: #141823;
+}
+.infotext{
+  font-size: 1.1em;
+}
+@media only screen and (min-width: 1430px) {
+  .whoAmIView{
+    background: url(../../../assets/who2.jpg) !important;
+    background-attachment: fixed !important;
+    background-position: center right !important;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .whoAmIView{
+    background: url(../../../assets/who3.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  .textView{
+    width: 60%;
+  }
+  .whoAmIView{
+    padding: 140px 20%;
+  }
+  h1{
+    font-size: 2.5em;
+  }
+}

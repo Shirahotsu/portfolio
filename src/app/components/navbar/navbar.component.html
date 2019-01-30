@@ -1,0 +1,16 @@
+<nav>
+  <ul>
+    <li *ngFor="let item of items; let i = index">
+      <a (mouseenter) ="mouseEnter(i)" [ngx-scroll-to]="item.link"  (mouseleave) ="mouseLeave(i)">
+        <span>{{item.name}}</span>
+        <figure [@moveLink]="state[i]"></figure>
+      </a>
+    </li>
+    <li>
+        <a (mouseenter) ="mouseEnter(4)" (mouseleave) ="mouseLeave(4)" href="https://github.com/Shirahotsu" target="BLANK">
+          <span>GITHUB</span>
+          <figure [@moveLink]="state[4]"></figure>
+        </a>
+      </li>
+  </ul>
+</nav>

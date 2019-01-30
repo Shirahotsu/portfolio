@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  margin: 0px;
+  padding: 0px;
+  // font-family: 'Noto Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  color: #141823;
+}
+.cp{
+  cursor: pointer;
+}
+.primTxt{
+  color: #AB47BC;
+}
+.primColor{
+  background-color: #AB47BC;
+}
+.bgColor{
+  background: #BE87C7;
+}
+.secondColor{
+  background-color: #3A293C;
+}
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 900px) {
+  h1{
+    font-size: 2.5em;
+  }
+}

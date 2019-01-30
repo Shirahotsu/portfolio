@@ -1,0 +1,36 @@
+nav{
+  position: absolute;
+  width: 100%;
+  z-index: 20;
+}
+ul{
+  list-style-type: none;
+  color:#fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 100px 20px 0px;
+}
+li{
+  padding: 0px 20px;
+  position: relative;
+}
+a, a:active, a:visited, a:link{
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+figure{
+  position: absolute;
+  top: 8px;
+  left: -39px;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  nav{
+    display: none;
+  }
+}

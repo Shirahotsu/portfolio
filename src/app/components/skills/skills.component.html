@@ -1,0 +1,9 @@
+<div class="SkillView">
+  <h1 class='primTxt'>UMIEJĘTNOŚCI</h1>
+  <div class="logoView">
+    <div *ngFor="let skill of skillsLogo" class="logoImg">
+      <img src="../../../assets/{{skill.img}}-logo.png" alt="">
+      <span>{{skill.name}}</span>
+    </div>
+  </div>
+</div>

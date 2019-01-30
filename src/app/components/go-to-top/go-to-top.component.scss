@@ -1,0 +1,15 @@
+figure{
+  position: fixed;
+  z-index: 99;
+  bottom: 10px;
+  left: 10px;
+  margin: 0;
+  background-color: #3A293C;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+svg{
+  fill: #fff;
+}

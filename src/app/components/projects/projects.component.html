@@ -1,0 +1,14 @@
+<div class="projectsView">
+  <div class="header bgColor">
+    <h1>PROJEKTY</h1>
+  </div>
+    <div class='imagesView'>
+      <div (mouseenter) ="mouseEnter(i) "  (mouseleave) ="mouseLeave(i)" *ngFor="let image of images; let i = index" class='img'>
+        <img src="{{image.img}}" alt="{{image.name}}">
+        <div [@movePanel]="state[i]" class="infoImg">
+          {{image.text}}
+          <a href="{{image.link}}" target="BLANK" class='cp'><span>ZOBACZ</span></a>
+        </div>
+      </div>
+    </div>
+</div>

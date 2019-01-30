@@ -1,0 +1,94 @@
+.contactView{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+h1{
+  text-align: center;
+}
+.contactTxt{
+  text-align: center;
+}
+
+a {
+  position: relative;
+
+  display: block;
+  // margin: 30px auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  margin-top: 20px;
+
+  overflow: hidden;
+
+  border-width: 0;
+  text-decoration: none;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+
+  background-color: #AB47BC;
+  color: #ecf0f1;
+
+  transition: background-color .3s;
+  max-width: 150px;
+}
+
+a:hover, a:focus {
+  background-color: #AB47BC;
+}
+
+a > * {
+  position: relative;
+}
+
+a span {
+  display: block;
+  padding: 12px 34px;
+  font-size: 0.9em;
+}
+
+a:before {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  display: block;
+  width: 0;
+  padding-top: 0;
+
+  border-radius: 100%;
+
+  background-color: rgba(209, 114, 204, 0.4);
+
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+a:active:before {
+  width: 120%;
+  padding-top: 120%;
+
+  transition: width .2s ease-out, padding-top .2s ease-out;
+}
+@media only screen and (min-width: 426px) {
+  .contactView{
+    padding: 40px 12%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .contactTxt{
+    font-size: 1.3em;
+    padding: 20px 0px 5px;
+  }
+  .contactView{
+    padding: 40px 20%;
+  }
+}
